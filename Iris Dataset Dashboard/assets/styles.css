@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(115deg, yellow, blue);
+}
+
+.title {
+    text-align: center;
+    color: Black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.dropdown {
+    /*position: absolute;
+    right: 10px;
+    top: 10px;*/
+    width: 150px !important;
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.graph {
+    width: 80%;
+    margin: 20px 0;
+}
+
+.dropdown:hover{
+    background-color: orangered;
+    transition: 1s;
+}
+
+.graph{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.graph:hover{
+    background-color: orangered;
+}
